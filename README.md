@@ -4,6 +4,14 @@ This repo demonstrates how to use wrapper profiles and start with a green
 baseline.
 
 1.  Clone the repo.
+1.  `cd inspec-wrapper-as-todo/baseline`
+1.  `kitchen verify`
+
+A fully functional testing environment is available.
+
+Add the ssh-baseline profile.
+
+1.  Checkout branch named `01-add-ssh-baseline`
 
 # License
 
