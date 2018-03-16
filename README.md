@@ -1,6 +1,9 @@
+# Wrapper Cookbook as TODO List
+
 This repo demonstrates how to use wrapper profiles and start with a green 
 baseline.
 
+1.  Clone the repo.
 
 # License
 
