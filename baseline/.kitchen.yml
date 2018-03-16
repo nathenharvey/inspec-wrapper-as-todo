@@ -22,7 +22,6 @@ suites:
       - recipe[baseline::default]
     verifier:
       inspec_tests:
-        - name: ssh-baseline
-          url: https://github.com/dev-sec/ssh-baseline/archive/master.tar.gz
+        - ../my-baseline
 
     attributes:
