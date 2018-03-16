@@ -12,7 +12,17 @@ A fully functional testing environment is available.
 Add the ssh-baseline profile.
 
 1.  Checkout branch named `01-add-ssh-baseline`
+1.  `kitchen verify`
 
+The cookbook is now using the ssh-baseline profile but there are a ton of 
+failures.  That does not feel or look good.  Let's start with passing tests.
+
+Add a wrapper profile and skip controls to get to red.
+
+1.  Checkout branch named `02-wrapper-profile`
+1.  `kitchen verify`
+
+Everything is green!
 # License
 
 |                      |                                          |
